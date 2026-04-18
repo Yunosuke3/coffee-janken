@@ -1,0 +1,24 @@
+{
+  "name": "coffee-janken",
+  "version": "1.0.0",
+  "description": "コーヒーじゃんけん - 勝者が全員分のコーヒーを奢るオンラインじゃんけんアプリ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "keywords": [
+    "janken",
+    "rock-paper-scissors",
+    "coffee",
+    "multiplayer"
+  ],
+  "license": "MIT"
+}
